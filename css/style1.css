@@ -1,0 +1,97 @@
+/* style1.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+	text-align: center;
+}
+
+/* Styling for the text box */
+.intro-box {
+    display: inline-block; /* Makes the box fit the content size */
+    padding: 20px; /* Adds space inside the box */
+    border: 2px solid #333; /* Border around the box */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color for the box */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    margin: 20px auto; /* Centers the box horizontally with some space on top and bottom */
+    text-align: left; /* Aligns text inside the box to the left */
+    width: 80%; /* Sets the width of the box */
+    max-width: 800px; /* Max width to prevent it from becoming too wide */
+	text-align: center;
+}
+
+.intro-box ul {
+    list-style-type: none; /* Removes the bullet points */
+    padding-left: 20px; /* Adds some space on the left for list items */
+}
+
+.intro-box li {
+    margin-bottom: 10px; /* Adds space between list items */
+}
+
+.intro-box p {
+    font-size: 18px; /* Slightly larger font for paragraphs */
+    line-height: 1.6; /* Increases line spacing for readability */
+}
+
+/* Profile image styles */
+.profile-image img {
+    width: 300px;                  /* Width of the image */
+    height: 300px;                 /* Height to make it a square */
+    border-radius: 50%;            /* Makes the image circular */
+    border: 4px solid #333;        /* Dark border around the image */
+    margin: 20px 0;                /* Margin around the image */
+    display: block;                /* Ensure it’s centered */
+    margin-left: auto;
+    margin-right: auto;            /* Center the image horizontally */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    footer {
+        font-size: 12px;
+    }
+}
+
